@@ -1,0 +1,14 @@
+C:\Users\ilyad\Documents\Visual Studio 2017\Projects\ConsoleApp2\Jint\obj\Debug\Jint.csproj.CoreCompileInputs.cache
+C:\Users\ilyad\Documents\Visual Studio 2017\Projects\ConsoleApp2\Jint\bin\Debug\Jint.dll
+C:\Users\ilyad\Documents\Visual Studio 2017\Projects\ConsoleApp2\Jint\bin\Debug\Jint.pdb
+C:\Users\ilyad\Documents\Visual Studio 2017\Projects\ConsoleApp2\Jint\bin\Debug\Antlr3.Runtime.dll
+C:\Users\ilyad\Documents\Visual Studio 2017\Projects\ConsoleApp2\Jint\obj\Debug\Jint.dll
+C:\Users\ilyad\Documents\Visual Studio 2017\Projects\ConsoleApp2\Jint\obj\Debug\Jint.pdb
+C:\Bystronic\BystronicDataService\Jint\bin\Debug\Jint.dll
+C:\Bystronic\BystronicDataService\Jint\bin\Debug\Jint.pdb
+C:\Bystronic\BystronicDataService\Jint\bin\Debug\Antlr3.Runtime.dll
+C:\Bystronic\BystronicDataService\Jint\obj\Debug\Jint.csproj.CoreCompileInputs.cache
+C:\Bystronic\BystronicDataService\Jint\obj\Debug\Jint.dll
+C:\Bystronic\BystronicDataService\Jint\obj\Debug\Jint.pdb
+C:\Bystronic\BystronicDataService\Jint\obj\Debug\Jint.csproj.CopyComplete
+C:\Bystronic\BystronicDataService\Jint\obj\Debug\Jint.csprojAssemblyReference.cache

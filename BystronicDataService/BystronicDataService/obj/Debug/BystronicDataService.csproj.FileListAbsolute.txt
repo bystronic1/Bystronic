@@ -1,0 +1,14 @@
+C:\Bystronic\BystronicDataService\BystronicDataService\bin\Debug\BystronicDataService.exe.config
+C:\Bystronic\BystronicDataService\BystronicDataService\bin\Debug\BystronicDataService.exe
+C:\Bystronic\BystronicDataService\BystronicDataService\bin\Debug\BystronicDataService.pdb
+C:\Bystronic\BystronicDataService\BystronicDataService\obj\Debug\BystronicDataService.exe
+C:\Bystronic\BystronicDataService\BystronicDataService\obj\Debug\BystronicDataService.pdb
+C:\Bystronic\BystronicDataService\BystronicDataService\obj\Debug\BystronicDataService.csproj.CoreCompileInputs.cache
+C:\Bystronic\BystronicDataService\BystronicDataService\bin\Debug\Jint.dll
+C:\Bystronic\BystronicDataService\BystronicDataService\bin\Debug\Antlr3.Runtime.dll
+C:\Bystronic\BystronicDataService\BystronicDataService\bin\Debug\Jint.pdb
+C:\Bystronic\BystronicDataService\BystronicDataService\obj\Debug\BystronicDataService.csproj.CopyComplete
+C:\Bystronic\BystronicDataService\BystronicDataService\obj\Debug\BystronicDataService.csprojAssemblyReference.cache
+C:\Bystronic\BystronicDataService\BystronicDataService\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Bystronic\BystronicDataService\BystronicDataService\bin\Debug\System.ValueTuple.dll
+C:\Bystronic\BystronicDataService\BystronicDataService\bin\Debug\System.Threading.Tasks.Extensions.xml

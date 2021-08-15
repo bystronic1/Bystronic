@@ -1,0 +1,1106 @@
+05/29/18 09:10:50 AM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+05/29/18 09:12:33 AM | * Bystronic data reloaded
+05/29/18 09:12:58 AM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+05/29/18 09:13:20 AM | * Bystronic data reloaded
+07/24/18 06:08:45 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+07/24/18 06:09:01 PM | * Bystronic data reloaded
+07/24/18 06:11:30 PM | Processing request "Login" received from luba.
+07/24/18 06:11:32 PM | Processing request "GetData" received from luba.
+07/24/18 06:11:36 PM | Processing request "CreateOrder" received from luba.
+07/24/18 06:12:16 PM | Processing request "CalculateOrder" received from luba.
+07/24/18 06:12:27 PM | Processing request "CalculateOrder" received from luba.
+07/24/18 06:12:34 PM | Processing request "CalculateOrder" received from luba.
+07/24/18 06:12:48 PM | Processing request "SaveOrder" received from luba.
+07/24/18 06:12:56 PM | Processing request "SaveOrder" received from luba.
+07/24/18 06:13:00 PM | Processing request "GetData" received from luba.
+07/24/18 06:14:01 PM | * Bystronic data reloaded
+07/24/18 06:16:38 PM | Processing request "Login" received from luba.
+07/24/18 06:16:39 PM | Processing request "GetData" received from luba.
+07/24/18 06:17:25 PM | Processing request "RealculateOrder" received from luba.
+07/25/18 09:00:54 AM | Processing request "SaveOrder" received from luba.
+07/25/18 09:00:59 AM | An operation was attempted on a nonexistent network connection
+07/25/18 09:00:59 AM | Processing request "Login" received from luba.
+07/25/18 09:01:00 AM | Exception: Cannot access a disposed object.
+Object name: 'System.Net.HttpListenerResponse'.
+   at System.Net.HttpListenerResponse.CheckDisposed()
+   at System.Net.HttpListenerResponse.set_ContentType(String value)
+   at BystronicDataService.BystronicDataService.SendError(HttpListenerContext context, String query, Int32 errorCode, String message, String details) in C:\Bystronic\BystronicDataService\BystronicDataService\BystronicDataService.cs:line 981
+   at BystronicDataService.BystronicDataService.Serve(HttpListenerContext context) in C:\Bystronic\BystronicDataService\BystronicDataService\BystronicDataService.cs:line 244
+   at BystronicDataService.BystronicDataService.<>c__DisplayClass9_0.<MainThread>b__1() in C:\Bystronic\BystronicDataService\BystronicDataService\BystronicDataService.cs:line 108
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+<<<<<<< working copy
+07/25/18 09:01:09 AM | Processing request "GetData" received from luba.
+07/25/18 09:01:09 AM | * Bystronic data reloaded
+07/25/18 09:01:35 AM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+07/25/18 09:01:35 AM | * Bystronic data reloaded
+07/25/18 09:01:42 AM | Processing request "GetData" received from luba.
+07/25/18 09:01:53 AM | Processing request "CreateOrder" received from luba.
+07/25/18 09:05:23 AM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+07/25/18 09:05:23 AM | * Bystronic data reloaded
+07/25/18 09:11:22 AM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+07/25/18 09:11:22 AM | * Bystronic data reloaded
+07/25/18 09:11:34 AM | Processing request "Login" received from luba.
+07/25/18 09:11:35 AM | Processing request "GetData" received from luba.
+07/25/18 09:11:38 AM | Processing request "CreateOrder" received from luba.
+07/25/18 09:12:15 AM | Processing request "CalculateOrder" received from luba.
+07/25/18 09:12:35 AM | Processing request "SaveOrder" received from luba.
+07/25/18 09:15:15 AM | Processing request "Login" received from luba.
+07/25/18 09:15:16 AM | Processing request "GetData" received from luba.
+07/25/18 09:15:33 AM | Processing request "GetData" received from luba.
+07/25/18 09:15:55 AM | Processing request "SaveOrder" received from luba.
+07/25/18 09:16:28 AM | * Bystronic data reloaded
+07/25/18 09:16:58 AM | Processing request "Login" received from luba.
+07/25/18 09:16:59 AM | Processing request "GetData" received from luba.
+07/25/18 06:30:23 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+07/25/18 06:30:23 PM | * Bystronic data reloaded
+07/25/18 06:30:26 PM | Processing request "Login" received from luba.
+07/25/18 06:30:27 PM | Processing request "GetData" received from luba.
+07/25/18 06:30:35 PM | Processing request "CreateOrder" received from luba.
+07/25/18 06:31:01 PM | Processing request "CalculateOrder" received from luba.
+07/25/18 06:31:28 PM | Processing request "SaveOrder" received from luba.
+07/25/18 06:39:52 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+07/25/18 06:39:52 PM | * Bystronic data reloaded
+07/25/18 06:40:02 PM | Processing request "GetData" received from luba.
+07/25/18 06:40:06 PM | Processing request "CreateOrder" received from luba.
+07/25/18 06:40:35 PM | Processing request "CalculateOrder" received from luba.
+07/25/18 06:40:45 PM | Processing request "SaveOrder" received from luba.
+07/25/18 06:41:04 PM | Processing request "SaveOrder" received from luba.
+07/25/18 06:42:34 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+07/25/18 06:42:34 PM | * Bystronic data reloaded
+07/25/18 06:42:42 PM | Processing request "GetData" received from luba.
+07/25/18 06:42:45 PM | Processing request "CreateOrder" received from luba.
+07/25/18 06:43:19 PM | Processing request "CalculateOrder" received from luba.
+07/25/18 06:45:15 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+07/25/18 06:45:15 PM | * Bystronic data reloaded
+07/25/18 06:46:58 PM | Processing request "CalculateOrder" received from luba.
+07/25/18 06:47:01 PM | Processing request "SaveOrder" received from luba.
+07/25/18 06:47:24 PM | Processing request "SaveOrder" received from luba.
+07/25/18 06:50:15 PM | * Bystronic data reloaded
+07/25/18 06:51:36 PM | Processing request "Login" received from luba.
+07/25/18 06:51:38 PM | Processing request "GetData" received from luba.
+07/25/18 06:54:09 PM | Processing request "Login" received from luba.
+07/25/18 06:54:10 PM | Processing request "GetData" received from luba.
+07/25/18 06:54:15 PM | Processing request "GetData" received from luba.
+07/25/18 06:55:15 PM | * Bystronic data reloaded
+07/25/18 06:55:19 PM | Processing request "Login" received from luba.
+07/25/18 06:55:20 PM | Processing request "GetData" received from luba.
+07/25/18 06:58:29 PM | Processing request "Login" received from luba.
+07/25/18 06:58:30 PM | Processing request "GetData" received from luba.
+07/25/18 06:58:32 PM | Processing request "GetData" received from luba.
+07/25/18 06:59:27 PM | Processing request "Login" received from luba.
+07/25/18 06:59:29 PM | Processing request "GetData" received from luba.
+07/25/18 07:00:15 PM | * Bystronic data reloaded
+07/25/18 07:00:20 PM | Processing request "Login" received from luba.
+07/25/18 07:00:21 PM | Processing request "GetData" received from luba.
+07/25/18 07:02:45 PM | Processing request "Login" received from luba.
+07/25/18 07:02:47 PM | Processing request "GetData" received from luba.
+07/25/18 07:03:41 PM | Processing request "Login" received from luba.
+07/25/18 07:03:42 PM | Processing request "GetData" received from luba.
+07/25/18 07:03:53 PM | Processing request "GetData" received from luba.
+07/25/18 07:05:07 PM | Processing request "Login" received from luba.
+07/25/18 07:05:08 PM | Processing request "GetData" received from luba.
+07/25/18 07:05:15 PM | * Bystronic data reloaded
+07/25/18 07:05:27 PM | Processing request "CreateOrder" received from luba.
+07/25/18 07:05:49 PM | Processing request "CalculateOrder" received from luba.
+07/25/18 07:05:51 PM | Processing request "SaveOrder" received from luba.
+07/25/18 07:06:51 PM | Processing request "Login" received from luba.
+07/25/18 07:06:52 PM | Processing request "GetData" received from luba.
+07/25/18 07:06:55 PM | Processing request "GetData" received from luba.
+07/25/18 07:07:03 PM | Processing request "GetData" received from luba.
+07/25/18 07:07:48 PM | Processing request "Login" received from luba.
+07/25/18 07:07:49 PM | Processing request "GetData" received from luba.
+07/25/18 07:07:51 PM | Processing request "GetData" received from luba.
+07/25/18 07:08:12 PM | Processing request "Login" received from luba.
+07/25/18 07:08:13 PM | Processing request "GetData" received from luba.
+07/25/18 07:08:16 PM | Processing request "GetData" received from luba.
+07/25/18 07:09:28 PM | Processing request "Login" received from luba.
+07/25/18 07:09:29 PM | Processing request "GetData" received from luba.
+07/25/18 07:09:31 PM | Processing request "GetData" received from luba.
+07/25/18 07:10:15 PM | * Bystronic data reloaded
+07/25/18 07:10:17 PM | Processing request "Login" received from luba.
+07/25/18 07:10:18 PM | Processing request "GetData" received from luba.
+07/25/18 07:10:20 PM | Processing request "GetData" received from luba.
+07/25/18 09:45:22 PM | * Bystronic data reloaded
+07/26/18 12:13:13 AM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+07/26/18 12:13:13 AM | * Bystronic data reloaded
+07/26/18 12:13:15 AM | Processing request "Login" received from luba.
+07/26/18 12:13:17 AM | Processing request "GetData" received from luba.
+07/26/18 12:13:21 AM | Processing request "GetData" received from luba.
+07/26/18 12:13:23 AM | Processing request "CreateOrder" received from luba.
+07/26/18 12:13:46 AM | Processing request "CalculateOrder" received from luba.
+07/26/18 12:13:56 AM | Processing request "SaveOrder" received from luba.
+07/26/18 12:14:54 AM | Processing request "Login" received from luba.
+07/26/18 12:14:56 AM | Processing request "GetData" received from luba.
+07/26/18 12:14:58 AM | Processing request "GetData" received from luba.
+07/26/18 12:15:31 AM | Processing request "Login" received from luba.
+07/26/18 12:15:32 AM | Processing request "GetData" received from luba.
+07/26/18 12:15:35 AM | Processing request "GetData" received from luba.
+07/26/18 12:16:15 AM | Processing request "Login" received from luba.
+07/26/18 12:16:16 AM | Processing request "GetData" received from luba.
+07/26/18 12:16:18 AM | Processing request "GetData" received from luba.
+07/26/18 12:17:19 AM | Processing request "Login" received from luba.
+07/26/18 12:17:20 AM | Processing request "GetData" received from luba.
+07/26/18 12:17:22 AM | Processing request "GetData" received from luba.
+07/26/18 12:17:45 AM | Processing request "Login" received from luba.
+07/26/18 12:17:46 AM | Processing request "GetData" received from luba.
+07/26/18 12:18:01 AM | Processing request "SaveOrder" received from luba.
+07/26/18 12:18:13 AM | * Bystronic data reloaded
+07/26/18 12:19:45 AM | Processing request "Login" received from luba.
+07/26/18 12:19:46 AM | Processing request "GetData" received from luba.
+07/26/18 12:19:49 AM | Processing request "GetData" received from luba.
+07/26/18 12:20:34 AM | Processing request "Login" received from luba.
+07/26/18 12:20:35 AM | Processing request "GetData" received from luba.
+07/26/18 12:20:37 AM | Processing request "GetData" received from luba.
+07/26/18 12:23:13 AM | * Bystronic data reloaded
+07/26/18 06:51:37 AM | * Bystronic data reloaded
+07/26/18 06:56:37 AM | * Bystronic data reloaded
+07/26/18 07:01:37 AM | * Bystronic data reloaded
+07/26/18 07:06:37 AM | * Bystronic data reloaded
+07/26/18 07:11:37 AM | * Bystronic data reloaded
+07/26/18 07:16:37 AM | * Bystronic data reloaded
+07/26/18 07:21:37 AM | * Bystronic data reloaded
+07/26/18 07:26:37 AM | * Bystronic data reloaded
+07/26/18 07:31:37 AM | * Bystronic data reloaded
+07/26/18 07:36:37 AM | * Bystronic data reloaded
+07/26/18 07:41:37 AM | * Bystronic data reloaded
+07/26/18 07:46:37 AM | * Bystronic data reloaded
+07/26/18 07:51:37 AM | * Bystronic data reloaded
+07/26/18 07:56:37 AM | * Bystronic data reloaded
+07/26/18 08:01:37 AM | * Bystronic data reloaded
+07/26/18 08:49:12 AM | * Bystronic data reloaded
+07/26/18 08:54:12 AM | * Bystronic data reloaded
+07/26/18 08:54:53 AM | Processing request "Login" received from luba.
+07/26/18 08:54:54 AM | Processing request "GetData" received from luba.
+07/26/18 08:58:14 AM | Processing request "Login" received from luba.
+07/26/18 08:58:16 AM | Processing request "GetData" received from luba.
+07/26/18 08:59:10 AM | Processing request "Login" received from luba.
+07/26/18 08:59:11 AM | Processing request "GetData" received from luba.
+07/26/18 08:59:12 AM | * Bystronic data reloaded
+07/26/18 09:00:24 AM | Processing request "Login" received from luba.
+07/26/18 09:00:25 AM | Processing request "GetData" received from luba.
+07/26/18 09:00:57 AM | Processing request "SaveOrder" received from luba.
+07/26/18 09:02:35 AM | Processing request "Login" received from luba.
+07/26/18 09:02:36 AM | Processing request "GetData" received from luba.
+07/26/18 09:03:12 AM | Processing request "Login" received from luba.
+07/26/18 09:03:13 AM | Processing request "GetData" received from luba.
+07/26/18 09:04:12 AM | * Bystronic data reloaded
+07/26/18 09:04:45 AM | Processing request "Login" received from luba.
+07/26/18 09:04:46 AM | Processing request "GetData" received from luba.
+07/26/18 09:05:24 AM | Processing request "Login" received from luba.
+07/26/18 09:06:18 AM | Processing request "Login" received from luba.
+07/26/18 09:07:33 AM | Processing request "Login" received from luba.
+07/26/18 09:07:34 AM | Processing request "GetData" received from luba.
+07/26/18 09:07:37 AM | Processing request "GetData" received from luba.
+07/26/18 09:08:35 AM | Processing request "Login" received from luba.
+07/26/18 09:08:36 AM | Processing request "GetData" received from luba.
+07/26/18 09:08:39 AM | Processing request "GetData" received from luba.
+07/26/18 09:09:12 AM | * Bystronic data reloaded
+07/26/18 09:11:54 AM | Processing request "Login" received from luba.
+07/26/18 09:11:55 AM | Processing request "GetData" received from luba.
+07/26/18 09:14:12 AM | * Bystronic data reloaded
+07/26/18 09:19:12 AM | * Bystronic data reloaded
+07/26/18 09:24:04 AM | Processing request "Login" received from luba.
+07/26/18 09:24:05 AM | Processing request "GetData" received from luba.
+07/26/18 09:24:10 AM | Processing request "GetData" received from luba.
+07/26/18 09:24:12 AM | * Bystronic data reloaded
+07/26/18 09:24:46 AM | Processing request "Login" received from luba.
+07/26/18 09:24:47 AM | Processing request "GetData" received from luba.
+07/26/18 09:24:49 AM | Processing request "GetData" received from luba.
+07/26/18 11:31:58 AM | * Bystronic data reloaded
+07/26/18 11:36:58 AM | * Bystronic data reloaded
+07/26/18 11:41:58 AM | * Bystronic data reloaded
+07/26/18 11:46:58 AM | * Bystronic data reloaded
+07/26/18 11:47:16 AM | Processing request "Login" received from luba.
+07/26/18 11:48:51 AM | Processing request "Login" received from luba.
+07/26/18 11:48:52 AM | Processing request "GetData" received from luba.
+07/26/18 11:48:56 AM | Processing request "GetData" received from luba.
+07/26/18 11:51:58 AM | * Bystronic data reloaded
+07/26/18 11:51:59 AM | Processing request "Login" received from luba.
+07/26/18 11:52:00 AM | Processing request "GetData" received from luba.
+07/26/18 11:52:03 AM | Processing request "GetData" received from luba.
+07/26/18 11:54:16 AM | Processing request "Login" received from luba.
+07/26/18 11:54:17 AM | Processing request "GetData" received from luba.
+07/26/18 11:54:20 AM | Processing request "GetData" received from luba.
+07/26/18 11:55:26 AM | Processing request "Login" received from luba.
+07/26/18 11:55:27 AM | Processing request "GetData" received from luba.
+07/26/18 11:55:29 AM | Processing request "GetData" received from luba.
+07/26/18 11:56:58 AM | * Bystronic data reloaded
+07/26/18 12:01:58 PM | * Bystronic data reloaded
+07/26/18 12:05:50 PM | Processing request "Login" received from luba.
+07/26/18 12:05:51 PM | Processing request "GetData" received from luba.
+07/26/18 12:05:54 PM | Processing request "GetData" received from luba.
+07/26/18 12:06:41 PM | Processing request "Login" received from luba.
+07/26/18 12:06:42 PM | Processing request "GetData" received from luba.
+07/26/18 12:06:44 PM | Processing request "GetData" received from luba.
+07/26/18 12:06:59 PM | * Bystronic data reloaded
+07/26/18 12:11:59 PM | * Bystronic data reloaded
+07/26/18 12:16:54 PM | Processing request "Login" received from luba.
+07/26/18 12:16:55 PM | Processing request "GetData" received from luba.
+07/26/18 12:16:59 PM | * Bystronic data reloaded
+07/26/18 12:16:59 PM | Processing request "GetData" received from luba.
+07/26/18 12:17:25 PM | Processing request "GetData" received from luba.
+07/26/18 12:18:40 PM | Processing request "Login" received from luba.
+07/26/18 12:18:41 PM | Processing request "GetData" received from luba.
+07/26/18 12:18:44 PM | Processing request "GetData" received from luba.
+07/26/18 12:21:59 PM | * Bystronic data reloaded
+07/26/18 12:24:05 PM | Processing request "Login" received from luba.
+07/26/18 12:24:06 PM | Processing request "GetData" received from luba.
+07/26/18 12:24:09 PM | Processing request "GetData" received from luba.
+07/26/18 12:25:26 PM | Processing request "Login" received from luba.
+07/26/18 12:25:27 PM | Processing request "GetData" received from luba.
+07/26/18 12:25:32 PM | Processing request "GetData" received from luba.
+07/26/18 12:26:40 PM | Processing request "Login" received from luba.
+07/26/18 12:26:42 PM | Processing request "GetData" received from luba.
+07/26/18 12:26:59 PM | * Bystronic data reloaded
+07/26/18 12:31:23 PM | Processing request "Login" received from luba.
+07/26/18 12:31:24 PM | Processing request "GetData" received from luba.
+07/26/18 12:31:59 PM | * Bystronic data reloaded
+07/26/18 12:32:05 PM | Processing request "Login" received from luba.
+07/26/18 12:32:06 PM | Processing request "GetData" received from luba.
+07/26/18 12:32:09 PM | Processing request "GetData" received from luba.
+07/26/18 12:36:59 PM | * Bystronic data reloaded
+07/26/18 12:41:59 PM | * Bystronic data reloaded
+07/26/18 12:46:59 PM | * Bystronic data reloaded
+07/26/18 12:51:59 PM | * Bystronic data reloaded
+07/26/18 12:56:59 PM | * Bystronic data reloaded
+07/26/18 01:01:59 PM | * Bystronic data reloaded
+07/26/18 01:06:59 PM | * Bystronic data reloaded
+07/26/18 05:24:45 PM | * Bystronic data reloaded
+07/26/18 05:29:46 PM | * Bystronic data reloaded
+07/26/18 05:34:46 PM | * Bystronic data reloaded
+07/26/18 05:39:46 PM | * Bystronic data reloaded
+07/26/18 05:44:46 PM | * Bystronic data reloaded
+07/26/18 05:49:46 PM | * Bystronic data reloaded
+07/26/18 05:54:46 PM | * Bystronic data reloaded
+07/26/18 05:59:46 PM | * Bystronic data reloaded
+07/26/18 06:04:46 PM | * Bystronic data reloaded
+07/26/18 06:09:46 PM | * Bystronic data reloaded
+07/26/18 07:07:51 PM | * Bystronic data reloaded
+07/26/18 07:09:11 PM | Processing request "Login" received from luba.
+07/26/18 07:09:12 PM | Processing request "GetData" received from luba.
+07/26/18 07:09:15 PM | Processing request "GetData" received from luba.
+07/26/18 07:10:36 PM | Processing request "Login" received from luba.
+07/26/18 07:10:37 PM | Processing request "GetData" received from luba.
+07/26/18 07:10:41 PM | Processing request "GetData" received from luba.
+07/26/18 07:12:51 PM | * Bystronic data reloaded
+07/26/18 07:12:59 PM | Processing request "Login" received from luba.
+07/26/18 07:13:00 PM | Processing request "GetData" received from luba.
+07/26/18 07:13:02 PM | Processing request "GetData" received from luba.
+07/27/18 08:52:08 AM | Processing request "Login" received from luba.
+07/27/18 08:52:10 AM | Processing request "GetData" received from luba.
+07/27/18 08:52:14 AM | Processing request "GetData" received from luba.
+07/27/18 08:54:19 AM | Processing request "Login" received from luba.
+07/27/18 08:54:20 AM | Processing request "GetData" received from luba.
+07/27/18 08:54:28 AM | Processing request "GetData" received from luba.
+07/27/18 08:54:30 AM | Processing request "GetData" received from luba.
+07/27/18 08:55:42 AM | * Bystronic data reloaded
+07/27/18 08:58:11 AM | Processing request "Login" received from luba.
+07/27/18 09:00:11 AM | Processing request "Login" received from luba.
+07/27/18 09:00:42 AM | * Bystronic data reloaded
+07/27/18 09:00:56 AM | Processing request "Login" received from luba.
+07/27/18 09:01:14 AM | Processing request "Login" received from luba.
+07/27/18 09:02:21 AM | Processing request "Login" received from luba.
+07/27/18 09:03:33 AM | Processing request "Login" received from luba.
+07/27/18 09:04:26 AM | Processing request "Login" received from luba.
+07/27/18 09:05:00 AM | Processing request "Login" received from luba.
+07/27/18 09:05:42 AM | * Bystronic data reloaded
+07/27/18 09:09:30 AM | Processing request "Login" received from luba.
+07/27/18 09:09:31 AM | Processing request "GetData" received from luba.
+07/27/18 09:09:35 AM | Processing request "GetData" received from luba.
+07/27/18 09:10:42 AM | * Bystronic data reloaded
+07/27/18 09:13:49 AM | Processing request "Login" received from luba.
+07/27/18 09:13:50 AM | Processing request "GetData" received from luba.
+07/27/18 09:13:53 AM | Processing request "GetData" received from luba.
+07/27/18 09:14:31 AM | Processing request "Login" received from luba.
+07/27/18 09:14:32 AM | Processing request "GetData" received from luba.
+07/27/18 09:14:35 AM | Processing request "GetData" received from luba.
+07/27/18 09:15:42 AM | * Bystronic data reloaded
+07/27/18 09:15:43 AM | Processing request "Login" received from luba.
+07/27/18 09:15:44 AM | Processing request "GetData" received from luba.
+07/27/18 09:15:50 AM | Processing request "GetData" received from luba.
+07/27/18 09:16:49 AM | Processing request "Login" received from luba.
+07/27/18 09:16:50 AM | Processing request "GetData" received from luba.
+07/27/18 10:02:34 AM | * Bystronic data reloaded
+07/27/18 10:07:34 AM | * Bystronic data reloaded
+07/27/18 10:12:34 AM | * Bystronic data reloaded
+07/27/18 10:17:34 AM | * Bystronic data reloaded
+07/27/18 10:22:34 AM | * Bystronic data reloaded
+07/27/18 10:27:34 AM | * Bystronic data reloaded
+07/27/18 10:32:34 AM | * Bystronic data reloaded
+07/27/18 10:37:34 AM | * Bystronic data reloaded
+07/27/18 10:42:34 AM | * Bystronic data reloaded
+07/27/18 10:47:34 AM | * Bystronic data reloaded
+07/27/18 10:52:34 AM | * Bystronic data reloaded
+07/27/18 10:57:34 AM | * Bystronic data reloaded
+07/27/18 11:02:34 AM | * Bystronic data reloaded
+07/27/18 04:24:04 PM | * Bystronic data reloaded
+07/27/18 04:29:03 PM | * Bystronic data reloaded
+07/27/18 04:34:04 PM | * Bystronic data reloaded
+07/27/18 04:39:04 PM | * Bystronic data reloaded
+07/27/18 04:44:04 PM | * Bystronic data reloaded
+07/27/18 04:49:04 PM | * Bystronic data reloaded
+07/27/18 04:49:35 PM | Processing request "Login" received from luba.
+07/27/18 04:49:36 PM | Processing request "GetData" received from luba.
+07/27/18 04:49:39 PM | Processing request "GetData" received from luba.
+07/27/18 04:51:06 PM | Processing request "Login" received from luba.
+07/27/18 04:51:07 PM | Processing request "GetData" received from luba.
+07/27/18 04:51:09 PM | Processing request "GetData" received from luba.
+07/27/18 04:54:04 PM | * Bystronic data reloaded
+07/27/18 04:59:04 PM | * Bystronic data reloaded
+07/27/18 05:04:04 PM | * Bystronic data reloaded
+07/27/18 05:09:04 PM | * Bystronic data reloaded
+07/27/18 05:14:04 PM | * Bystronic data reloaded
+07/28/18 10:29:11 AM | * Bystronic data reloaded
+07/28/18 10:29:44 AM | Processing request "Login" received from luba.
+07/28/18 10:29:46 AM | Processing request "GetData" received from luba.
+07/28/18 10:30:06 AM | Processing request "GetFormula" received from luba.
+07/29/18 08:58:23 AM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+07/29/18 08:58:23 AM | * Bystronic data reloaded
+07/29/18 08:58:26 AM | Processing request "Login" received from luba.
+07/29/18 08:58:28 AM | Processing request "GetData" received from luba.
+07/29/18 08:58:31 AM | Processing request "CreateOrder" received from luba.
+07/29/18 09:31:24 AM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+07/29/18 09:31:24 AM | * Bystronic data reloaded
+07/29/18 09:31:34 AM | Processing request "Login" received from luba.
+07/29/18 09:31:35 AM | Processing request "GetData" received from luba.
+07/29/18 09:31:38 AM | Processing request "CreateOrder" received from luba.
+07/29/18 09:32:04 AM | The given key was not present in the dictionary.
+07/29/18 09:32:04 AM | Exception: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at BystronicDataService.Order.CalculateCommissions(Double& discountAmount, Double& discountPercent, Double& dealerCommission, Double& regionalManagerCommission, Double& productManagerCommission, Double& dseCommissionRate) in C:\Bystronic\BystronicDataService\BystronicDataService\BystronicDataElements.cs:line 703
+   at BystronicDataService.Order.CalculateCommissions() in C:\Bystronic\BystronicDataService\BystronicDataService\BystronicDataElements.cs:line 670
+   at BystronicDataService.Order.Calculate() in C:\Bystronic\BystronicDataService\BystronicDataService\BystronicDataElements.cs:line 664
+   at BystronicDataService.BystronicDataService.HandleCalculateOrder(Object[] args) in C:\Bystronic\BystronicDataService\BystronicDataService\BystronicDataService.cs:line 446
+   at BystronicDataService.BystronicDataService.Invoke(ServiceFunction function, Object[] args) in C:\Bystronic\BystronicDataService\BystronicDataService\BystronicDataService.cs:line 1031
+   at BystronicDataService.BystronicDataService.Serve(HttpListenerContext context) in C:\Bystronic\BystronicDataService\BystronicDataService\BystronicDataService.cs:line 170
+07/29/18 09:33:57 AM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+07/29/18 09:33:57 AM | * Bystronic data reloaded
+07/29/18 09:34:26 AM | Processing request "Login" received from luba.
+07/29/18 09:34:27 AM | Processing request "GetData" received from luba.
+07/29/18 09:34:30 AM | Processing request "CreateOrder" received from luba.
+07/29/18 09:34:49 AM | Processing request "CalculateOrder" received from luba.
+07/29/18 09:35:14 AM | Processing request "Login" received from luba.
+07/29/18 09:35:15 AM | Processing request "GetData" received from luba.
+07/29/18 09:36:15 AM | Processing request "CreateOrder" received from luba.
+07/29/18 09:37:18 AM | Processing request "CalculateOrder" received from luba.
+07/29/18 09:38:19 AM | Processing request "CreateOrder" received from luba.
+07/29/18 09:40:02 AM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+07/29/18 09:40:02 AM | * Bystronic data reloaded
+07/29/18 09:40:11 AM | Processing request "CalculateOrder" received from luba.
+07/29/18 09:40:38 AM | Processing request "SaveOrder" received from luba.
+07/29/18 09:45:02 AM | * Bystronic data reloaded
+07/29/18 09:47:21 AM | Processing request "Login" received from luba.
+07/29/18 09:47:22 AM | Processing request "GetData" received from luba.
+07/29/18 09:50:02 AM | * Bystronic data reloaded
+07/29/18 09:55:02 AM | * Bystronic data reloaded
+07/29/18 10:00:02 AM | * Bystronic data reloaded
+07/29/18 10:01:03 AM | Processing request "Login" received from luba.
+07/29/18 10:01:04 AM | Processing request "GetData" received from luba.
+07/29/18 10:05:02 AM | * Bystronic data reloaded
+07/29/18 10:07:20 AM | Processing request "GetFormula" received from luba.
+07/29/18 10:09:01 AM | Processing request "UpdateSalesman" received from luba.
+07/29/18 10:09:18 AM | Processing request "GetData" received from luba.
+07/29/18 10:10:02 AM | * Bystronic data reloaded
+07/29/18 10:15:02 AM | * Bystronic data reloaded
+07/29/18 10:20:02 AM | * Bystronic data reloaded
+07/29/18 10:25:02 AM | * Bystronic data reloaded
+07/29/18 10:30:02 AM | * Bystronic data reloaded
+07/29/18 10:35:02 AM | * Bystronic data reloaded
+07/29/18 12:43:04 PM | * Bystronic data reloaded
+07/29/18 12:48:04 PM | * Bystronic data reloaded
+07/29/18 12:53:04 PM | * Bystronic data reloaded
+07/29/18 12:58:04 PM | * Bystronic data reloaded
+07/29/18 01:03:04 PM | * Bystronic data reloaded
+07/29/18 01:08:04 PM | * Bystronic data reloaded
+07/29/18 01:13:04 PM | * Bystronic data reloaded
+07/29/18 01:18:04 PM | * Bystronic data reloaded
+07/29/18 01:23:04 PM | * Bystronic data reloaded
+07/29/18 01:28:05 PM | * Bystronic data reloaded
+07/29/18 01:33:05 PM | * Bystronic data reloaded
+07/29/18 09:32:32 PM | * Bystronic data reloaded
+07/29/18 09:37:32 PM | * Bystronic data reloaded
+07/29/18 09:42:32 PM | * Bystronic data reloaded
+07/29/18 09:47:32 PM | * Bystronic data reloaded
+07/29/18 09:52:32 PM | * Bystronic data reloaded
+07/29/18 09:57:32 PM | * Bystronic data reloaded
+07/29/18 10:02:32 PM | * Bystronic data reloaded
+07/29/18 10:07:32 PM | * Bystronic data reloaded
+07/29/18 10:12:32 PM | * Bystronic data reloaded
+07/29/18 10:17:32 PM | * Bystronic data reloaded
+07/30/18 01:22:27 AM | * Bystronic data reloaded
+=======
+03/08/18 04:04:15 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 04:04:15 PM | * Bystronic data reloaded
+03/08/18 04:04:22 PM | Processing request "Login" received from luba.
+03/08/18 04:04:23 PM | Processing request "GetData" received from luba.
+03/08/18 04:06:53 PM | Processing request "Login" received from luba.
+03/08/18 04:06:53 PM | Processing request "GetData" received from luba.
+03/08/18 04:07:14 PM | Processing request "UpdateSalesman" received from luba.
+03/08/18 04:07:45 PM | Processing request "GetData" received from luba.
+03/08/18 04:09:15 PM | * Bystronic data reloaded
+03/08/18 04:11:26 PM | Processing request "Login" received from luba.
+03/08/18 04:11:27 PM | Processing request "GetData" received from luba.
+03/08/18 04:22:46 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 04:22:46 PM | * Bystronic data reloaded
+03/08/18 04:36:25 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 04:36:25 PM | * Bystronic data reloaded
+03/08/18 04:36:38 PM | Processing request "Login" received from luba.
+03/08/18 04:36:39 PM | Processing request "GetData" received from luba.
+03/08/18 04:36:43 PM | Processing request "GetData" received from luba.
+03/08/18 04:37:50 PM | Processing request "Login" received from luba.
+03/08/18 04:37:51 PM | Processing request "GetData" received from luba.
+03/08/18 04:41:25 PM | * Bystronic data reloaded
+03/08/18 04:41:48 PM | Processing request "Login" received from luba.
+03/08/18 04:41:50 PM | Processing request "GetData" received from luba.
+03/08/18 04:41:52 PM | Processing request "GetData" received from luba.
+03/08/18 04:42:32 PM | Processing request "UpdateSalesman" received from luba.
+03/08/18 04:43:21 PM | Processing request "Login" received from luba.
+03/08/18 04:43:22 PM | Processing request "GetData" received from luba.
+03/08/18 04:44:34 PM | Processing request "Login" received from luba.
+03/08/18 04:44:35 PM | Processing request "GetData" received from luba.
+03/08/18 04:45:57 PM | Processing request "UpdateSalesman" received from luba.
+03/08/18 04:46:25 PM | * Bystronic data reloaded
+03/08/18 04:46:31 PM | Processing request "Login" received from luba.
+03/08/18 04:46:32 PM | Processing request "GetData" received from luba.
+03/08/18 04:46:52 PM | Processing request "UpdateSalesman" received from luba.
+03/08/18 04:47:34 PM | Processing request "Login" received from luba.
+03/08/18 04:47:35 PM | Processing request "GetData" received from luba.
+03/08/18 04:47:41 PM | Processing request "UpdateSalesman" received from luba.
+03/08/18 04:51:25 PM | * Bystronic data reloaded
+03/08/18 04:51:55 PM | Processing request "Login" received from luba.
+03/08/18 04:51:56 PM | Processing request "GetData" received from luba.
+03/08/18 04:52:24 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 04:52:24 PM | * Bystronic data reloaded
+03/08/18 04:54:13 PM | Processing request "Login" received from luba.
+03/08/18 04:54:14 PM | Processing request "GetData" received from luba.
+03/08/18 04:54:30 PM | Processing request "UpdateSalesman" received from luba.
+03/08/18 04:54:34 PM | Processing request "UpdateSalesman" received from luba.
+03/08/18 04:57:24 PM | * Bystronic data reloaded
+03/08/18 04:58:07 PM | Processing request "Login" received from luba.
+03/08/18 04:58:08 PM | Processing request "GetData" received from luba.
+03/08/18 04:58:40 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 04:58:40 PM | * Bystronic data reloaded
+03/08/18 05:00:33 PM | Processing request "Login" received from luba.
+03/08/18 05:00:34 PM | Processing request "GetData" received from luba.
+03/08/18 05:03:14 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 05:03:14 PM | * Bystronic data reloaded
+03/08/18 05:08:14 PM | * Bystronic data reloaded
+03/08/18 05:10:21 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 05:10:21 PM | * Bystronic data reloaded
+03/08/18 05:49:14 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 05:49:14 PM | * Bystronic data reloaded
+03/08/18 05:49:57 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 05:49:57 PM | * Bystronic data reloaded
+03/08/18 05:50:17 PM | Processing request "Login" received from luba.
+03/08/18 05:50:18 PM | Processing request "GetData" received from luba.
+03/08/18 05:51:30 PM | Processing request "Login" received from luba.
+03/08/18 05:51:31 PM | Processing request "GetData" received from luba.
+03/08/18 05:51:45 PM | Processing request "GetData" received from luba.
+03/08/18 05:55:00 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 05:55:01 PM | * Bystronic data reloaded
+03/08/18 05:55:25 PM | Processing request "Login" received from luba.
+03/08/18 05:55:39 PM | Processing request "GetData" received from luba.
+03/08/18 06:00:41 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 06:00:41 PM | * Bystronic data reloaded
+03/08/18 06:01:04 PM | Processing request "Login" received from luba.
+03/08/18 06:01:08 PM | Processing request "GetData" received from luba.
+03/08/18 06:05:09 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 06:05:09 PM | * Bystronic data reloaded
+03/08/18 06:05:20 PM | Processing request "GetData" received from luba.
+03/08/18 06:06:00 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 06:06:00 PM | * Bystronic data reloaded
+03/08/18 06:06:15 PM | Processing request "Login" received from luba.
+03/08/18 06:06:18 PM | Processing request "GetData" received from luba.
+03/08/18 06:06:48 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 06:06:48 PM | * Bystronic data reloaded
+03/08/18 06:08:15 PM | Processing request "UpdateSalesman" received from luba.
+03/08/18 06:09:36 PM | Processing request "UpdateSalesman" received from luba.
+03/08/18 06:11:48 PM | * Bystronic data reloaded
+03/08/18 06:12:44 PM | Processing request "Login" received from luba.
+03/08/18 06:12:58 PM | Processing request "GetData" received from luba.
+03/08/18 06:12:58 PM | Processing request "GetData" received from luba.
+03/08/18 06:12:58 PM | An operation was attempted on a nonexistent network connection
+03/08/18 06:12:58 PM | Exception: Cannot access a disposed object.
+Object name: 'System.Net.HttpListenerResponse'.
+   at System.Net.HttpListenerResponse.CheckDisposed()
+   at System.Net.HttpListenerResponse.set_ContentType(String value)
+   at BystronicDataService.BystronicDataService.SendError(HttpListenerContext context, String query, Int32 errorCode, String message, String details) in C:\Bystronic\BystronicDataService\BystronicDataService\BystronicDataService.cs:line 961
+   at BystronicDataService.BystronicDataService.Serve(HttpListenerContext context) in C:\Bystronic\BystronicDataService\BystronicDataService\BystronicDataService.cs:line 242
+   at BystronicDataService.BystronicDataService.<>c__DisplayClass9_0.<MainThread>b__1() in C:\Bystronic\BystronicDataService\BystronicDataService\BystronicDataService.cs:line 108
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+03/08/18 06:13:37 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 06:13:37 PM | * Bystronic data reloaded
+03/08/18 06:13:42 PM | Processing request "GetData" received from luba.
+03/08/18 06:14:13 PM | Processing request "UpdateSalesman" received from luba.
+03/08/18 06:14:35 PM | Processing request "UpdateSalesman" received from luba.
+03/08/18 06:15:54 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 06:15:54 PM | * Bystronic data reloaded
+03/08/18 06:16:05 PM | Processing request "Login" received from luba.
+03/08/18 06:16:06 PM | Processing request "GetData" received from luba.
+03/08/18 06:16:30 PM | Processing request "UpdateSalesman" received from luba.
+03/08/18 06:16:38 PM | Processing request "GetData" received from luba.
+03/08/18 06:17:50 PM | Processing request "AddSalesman" received from luba.
+03/08/18 06:17:56 PM | Processing request "GetData" received from luba.
+03/08/18 09:42:25 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 09:42:25 PM | * Bystronic data reloaded
+03/08/18 09:42:56 PM | Processing request "Login" received from luba.
+03/08/18 09:42:57 PM | Processing request "GetData" received from luba.
+03/08/18 09:43:08 PM | Processing request "UpdateSalesman" received from luba.
+03/08/18 09:43:25 PM | * Bystronic data reloaded
+03/08/18 09:43:53 PM | Processing request "UpdateSalesman" received from luba.
+03/08/18 09:44:02 PM | Processing request "GetData" received from luba.
+03/08/18 09:44:25 PM | * Bystronic data reloaded
+03/08/18 09:45:25 PM | * Bystronic data reloaded
+03/08/18 10:37:15 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 10:37:15 PM | Exception: Object reference not set to an instance of an object.
+   at BystronicDataService.User..ctor(String id, String name, String role, String region, String costCenter, Double ytdSale, String salesGoalsString) in C:\Bystronic\BystronicDataService\BystronicDataService\BystronicDataElements.cs:line 205
+   at BystronicDataService.TestDataSource.GetAllSalesmen() in C:\Bystronic\BystronicDataService\BystronicDataService\TestDataSource.cs:line 134
+   at BystronicDataService.DataSource.GetSalesmenFor(User salesman) in C:\Bystronic\BystronicDataService\BystronicDataService\DataSource.cs:line 44
+   at BystronicDataService.BystronicData.ReadInfo(DataSource dataSource) in C:\Bystronic\BystronicDataService\BystronicDataService\BystronicDataElements.cs:line 64
+   at BystronicDataService.BystronicData.ReadData(DataSource dataSource) in C:\Bystronic\BystronicDataService\BystronicDataService\BystronicDataElements.cs:line 56
+   at BystronicDataService.BystronicData..ctor(DataSource dataSource) in C:\Bystronic\BystronicDataService\BystronicDataService\BystronicDataElements.cs:line 51
+   at BystronicDataService.BystronicData.UpdateData(DataSource dataSource) in C:\Bystronic\BystronicDataService\BystronicDataService\BystronicDataElements.cs:line 27
+   at BystronicDataService.BystronicDataService.<>c.<MainThread>b__9_0() in C:\Bystronic\BystronicDataService\BystronicDataService\BystronicDataService.cs:line 98
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+03/08/18 10:38:23 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 10:38:23 PM | * Bystronic data reloaded
+03/08/18 10:39:01 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 10:39:01 PM | * Bystronic data reloaded
+03/08/18 10:39:25 PM | Processing request "Login" received from luba.
+03/08/18 10:39:26 PM | Processing request "GetData" received from luba.
+03/08/18 10:39:52 PM | Processing request "UpdateSalesman" received from luba.
+03/08/18 10:40:01 PM | * Bystronic data reloaded
+03/08/18 10:40:06 PM | Processing request "GetData" received from luba.
+03/08/18 10:40:23 PM | Processing request "UpdateSalesman" received from luba.
+03/08/18 10:41:01 PM | * Bystronic data reloaded
+03/08/18 10:42:01 PM | * Bystronic data reloaded
+03/08/18 10:43:01 PM | * Bystronic data reloaded
+03/08/18 10:44:01 PM | * Bystronic data reloaded
+03/08/18 10:45:01 PM | * Bystronic data reloaded
+03/08/18 10:46:01 PM | * Bystronic data reloaded
+03/08/18 10:47:01 PM | * Bystronic data reloaded
+03/08/18 10:48:01 PM | * Bystronic data reloaded
+03/08/18 10:49:01 PM | * Bystronic data reloaded
+03/08/18 10:50:01 PM | * Bystronic data reloaded
+03/08/18 10:51:01 PM | * Bystronic data reloaded
+03/08/18 10:52:01 PM | * Bystronic data reloaded
+03/08/18 10:53:01 PM | * Bystronic data reloaded
+03/08/18 10:53:55 PM | Processing request "Login" received from luba.
+03/08/18 10:53:56 PM | Processing request "GetData" received from luba.
+03/08/18 10:54:01 PM | * Bystronic data reloaded
+03/08/18 10:54:54 PM | Processing request "CreateOrder" received from luba.
+03/08/18 10:55:01 PM | * Bystronic data reloaded
+03/08/18 10:55:19 PM | Processing request "CalculateOrder" received from luba.
+03/08/18 10:55:31 PM | Processing request "SaveOrder" received from luba.
+03/08/18 10:55:41 PM | Processing request "SaveColumns" received from luba.
+03/08/18 10:55:51 PM | Processing request "SaveColumns" received from luba.
+03/08/18 10:56:01 PM | * Bystronic data reloaded
+03/08/18 10:56:08 PM | Processing request "SaveOrder" received from luba.
+03/08/18 10:56:16 PM | Processing request "GetData" received from luba.
+03/08/18 10:56:25 PM | Processing request "RealculateOrder" received from luba.
+03/08/18 10:56:44 PM | Processing request "SaveOrder" received from luba.
+03/08/18 10:57:01 PM | * Bystronic data reloaded
+03/08/18 10:57:04 PM | Processing request "GetData" received from luba.
+03/08/18 10:57:19 PM | Processing request "CalculateOrder" received from luba.
+03/08/18 10:57:24 PM | Processing request "SaveOrder" received from luba.
+03/08/18 10:57:35 PM | Processing request "SaveOrder" received from luba.
+03/08/18 10:57:56 PM | Processing request "GetData" received from luba.
+03/08/18 10:58:01 PM | * Bystronic data reloaded
+03/08/18 10:58:05 PM | Processing request "GetData" received from luba.
+03/08/18 11:02:13 PM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/08/18 11:02:13 PM | * Bystronic data reloaded
+03/08/18 11:02:33 PM | Processing request "Login" received from luba.
+03/08/18 11:02:34 PM | Processing request "GetData" received from luba.
+03/08/18 11:02:38 PM | Processing request "CreateOrder" received from luba.
+03/08/18 11:03:09 PM | Processing request "CalculateOrder" received from luba.
+03/08/18 11:03:13 PM | * Bystronic data reloaded
+03/08/18 11:03:22 PM | Processing request "SaveOrder" received from luba.
+03/08/18 11:03:37 PM | Processing request "SaveOrder" received from luba.
+03/08/18 11:03:51 PM | Processing request "SaveOrder" received from luba.
+03/08/18 11:04:13 PM | * Bystronic data reloaded
+03/08/18 11:04:44 PM | Processing request "RealculateOrder" received from luba.
+03/08/18 11:05:13 PM | * Bystronic data reloaded
+03/08/18 11:06:13 PM | * Bystronic data reloaded
+03/08/18 11:07:13 PM | * Bystronic data reloaded
+03/08/18 11:08:13 PM | * Bystronic data reloaded
+03/08/18 11:09:14 PM | * Bystronic data reloaded
+03/08/18 11:10:14 PM | * Bystronic data reloaded
+03/09/18 08:49:34 AM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/09/18 08:49:34 AM | * Bystronic data reloaded
+03/09/18 08:49:49 AM | Processing request "Login" received from luba.
+03/09/18 08:49:50 AM | Processing request "GetData" received from luba.
+03/09/18 08:50:13 AM | Processing request "SaveColumns" received from luba.
+03/09/18 08:50:34 AM | Processing request "CreateOrder" received from luba.
+03/09/18 08:50:58 AM | Processing request "CalculateOrder" received from luba.
+03/09/18 08:51:10 AM | Processing request "SaveOrder" received from luba.
+03/09/18 08:51:34 AM | * Bystronic data reloaded
+03/09/18 08:53:34 AM | * Bystronic data reloaded
+03/09/18 08:55:21 AM | Processing request "Login" received from luba.
+03/09/18 08:55:22 AM | Processing request "GetData" received from luba.
+03/09/18 08:55:25 AM | Processing request "GetData" received from luba.
+03/09/18 08:55:34 AM | * Bystronic data reloaded
+03/09/18 08:55:42 AM | Processing request "Login" received from luba.
+03/09/18 08:55:43 AM | Processing request "GetData" received from luba.
+03/09/18 08:55:46 AM | Processing request "GetData" received from luba.
+03/09/18 08:56:02 AM | Processing request "Login" received from luba.
+03/09/18 08:56:03 AM | Processing request "GetData" received from luba.
+03/09/18 08:56:06 AM | Processing request "GetData" received from luba.
+03/09/18 08:56:31 AM | Processing request "Login" received from luba.
+03/09/18 08:56:32 AM | Processing request "GetData" received from luba.
+03/09/18 08:56:35 AM | Processing request "GetData" received from luba.
+03/09/18 08:56:51 AM | Processing request "Login" received from luba.
+03/09/18 08:56:52 AM | Processing request "GetData" received from luba.
+03/09/18 08:56:57 AM | Processing request "GetData" received from luba.
+03/09/18 08:57:34 AM | * Bystronic data reloaded
+03/09/18 08:57:40 AM | Processing request "Login" received from luba.
+03/09/18 08:57:41 AM | Processing request "GetData" received from luba.
+03/09/18 08:57:46 AM | Processing request "GetData" received from luba.
+03/09/18 08:58:09 AM | Processing request "Login" received from luba.
+03/09/18 08:58:10 AM | Processing request "GetData" received from luba.
+03/09/18 08:58:13 AM | Processing request "GetData" received from luba.
+03/09/18 08:58:21 AM | Processing request "GetData" received from luba.
+03/09/18 08:58:35 AM | Processing request "Login" received from luba.
+03/09/18 08:58:35 AM | Processing request "GetData" received from luba.
+03/09/18 08:58:40 AM | Processing request "GetData" received from luba.
+03/09/18 08:59:03 AM | Processing request "Login" received from luba.
+03/09/18 08:59:04 AM | Processing request "GetData" received from luba.
+03/09/18 08:59:07 AM | Processing request "GetData" received from luba.
+03/09/18 08:59:34 AM | * Bystronic data reloaded
+03/09/18 08:59:55 AM | Processing request "Login" received from luba.
+03/09/18 08:59:56 AM | Processing request "GetData" received from luba.
+03/09/18 09:00:02 AM | Processing request "GetData" received from luba.
+03/09/18 09:00:29 AM | Processing request "Login" received from luba.
+03/09/18 09:00:30 AM | Processing request "GetData" received from luba.
+03/09/18 09:01:34 AM | * Bystronic data reloaded
+03/09/18 09:02:23 AM | Processing request "Login" received from luba.
+03/09/18 09:02:24 AM | Processing request "GetData" received from luba.
+03/09/18 09:02:28 AM | Processing request "GetData" received from luba.
+03/09/18 09:02:34 AM | Processing request "GetData" received from luba.
+03/09/18 09:03:34 AM | * Bystronic data reloaded
+03/09/18 09:03:51 AM | Processing request "Login" received from luba.
+03/09/18 09:03:52 AM | Processing request "GetData" received from luba.
+03/09/18 09:03:55 AM | Processing request "GetData" received from luba.
+03/09/18 09:04:09 AM | Processing request "GetData" received from luba.
+03/09/18 09:05:08 AM | Processing request "Login" received from luba.
+03/09/18 09:05:09 AM | Processing request "GetData" received from luba.
+03/09/18 09:05:13 AM | Processing request "GetData" received from luba.
+03/09/18 09:05:34 AM | * Bystronic data reloaded
+03/09/18 09:06:17 AM | Processing request "Login" received from luba.
+03/09/18 09:06:18 AM | Processing request "GetData" received from luba.
+03/09/18 09:06:24 AM | Processing request "GetData" received from luba.
+03/09/18 09:07:34 AM | * Bystronic data reloaded
+03/09/18 09:07:49 AM | Processing request "Login" received from luba.
+03/09/18 09:07:50 AM | Processing request "GetData" received from luba.
+03/09/18 09:09:08 AM | Processing request "Login" received from luba.
+03/09/18 09:09:09 AM | Processing request "GetData" received from luba.
+03/09/18 09:09:13 AM | Processing request "GetData" received from luba.
+03/09/18 09:09:34 AM | * Bystronic data reloaded
+03/09/18 09:10:04 AM | Processing request "Login" received from luba.
+03/09/18 09:10:05 AM | Processing request "GetData" received from luba.
+03/09/18 09:10:09 AM | Processing request "GetData" received from luba.
+03/09/18 09:10:23 AM | Processing request "Login" received from luba.
+03/09/18 09:10:24 AM | Processing request "GetData" received from luba.
+03/09/18 09:10:38 AM | Processing request "Login" received from luba.
+03/09/18 09:10:39 AM | Processing request "GetData" received from luba.
+03/09/18 09:10:42 AM | Processing request "GetData" received from luba.
+03/09/18 09:11:34 AM | * Bystronic data reloaded
+03/09/18 09:13:14 AM | Processing request "Login" received from luba.
+03/09/18 09:13:15 AM | Processing request "GetData" received from luba.
+03/09/18 09:13:18 AM | Processing request "GetData" received from luba.
+03/09/18 09:13:34 AM | * Bystronic data reloaded
+03/09/18 09:15:07 AM | Processing request "Login" received from luba.
+03/09/18 09:15:07 AM | Processing request "GetData" received from luba.
+03/09/18 09:15:15 AM | Processing request "GetData" received from luba.
+03/09/18 09:15:34 AM | * Bystronic data reloaded
+03/09/18 09:16:26 AM | Processing request "Login" received from luba.
+03/09/18 09:16:27 AM | Processing request "GetData" received from luba.
+03/09/18 09:16:30 AM | Processing request "GetData" received from luba.
+03/09/18 09:16:39 AM | Processing request "GetData" received from luba.
+03/09/18 09:17:17 AM | Processing request "Login" received from luba.
+03/09/18 09:17:18 AM | Processing request "GetData" received from luba.
+03/09/18 09:17:26 AM | Processing request "GetData" received from luba.
+03/09/18 09:17:34 AM | * Bystronic data reloaded
+03/09/18 09:19:34 AM | * Bystronic data reloaded
+03/09/18 09:20:19 AM | Processing request "Login" received from luba.
+03/09/18 09:20:20 AM | Processing request "GetData" received from luba.
+03/09/18 09:20:57 AM | Processing request "Login" received from luba.
+03/09/18 09:20:58 AM | Processing request "GetData" received from luba.
+03/09/18 09:21:03 AM | Processing request "GetData" received from luba.
+03/09/18 09:21:34 AM | * Bystronic data reloaded
+03/09/18 09:21:42 AM | Processing request "Login" received from luba.
+03/09/18 09:21:42 AM | Processing request "GetData" received from luba.
+03/09/18 09:21:45 AM | Processing request "GetData" received from luba.
+03/09/18 09:22:15 AM | Processing request "Login" received from luba.
+03/09/18 09:22:16 AM | Processing request "GetData" received from luba.
+03/09/18 09:22:19 AM | Processing request "GetData" received from luba.
+03/09/18 09:54:48 AM | * Bystronic data reloaded
+03/09/18 09:55:31 AM | Processing request "Login" received from luba.
+03/09/18 09:55:32 AM | Processing request "GetData" received from luba.
+03/09/18 09:56:14 AM | Processing request "Login" received from luba.
+03/09/18 09:56:15 AM | Processing request "GetData" received from luba.
+03/09/18 09:56:19 AM | Processing request "GetData" received from luba.
+03/09/18 09:56:48 AM | * Bystronic data reloaded
+03/09/18 09:56:51 AM | Processing request "Login" received from luba.
+03/09/18 09:56:52 AM | Processing request "GetData" received from luba.
+03/09/18 09:57:06 AM | Processing request "Login" received from luba.
+03/09/18 09:57:06 AM | Processing request "GetData" received from luba.
+03/09/18 09:57:19 AM | Processing request "Login" received from luba.
+03/09/18 09:57:20 AM | Processing request "GetData" received from luba.
+03/09/18 09:57:23 AM | Processing request "GetData" received from luba.
+03/09/18 09:57:33 AM | Processing request "Login" received from luba.
+03/09/18 09:57:33 AM | Processing request "GetData" received from luba.
+03/09/18 09:58:00 AM | Processing request "Login" received from luba.
+03/09/18 09:58:01 AM | Processing request "GetData" received from luba.
+03/09/18 09:58:23 AM | Processing request "Login" received from luba.
+03/09/18 09:58:23 AM | Processing request "GetData" received from luba.
+03/09/18 09:58:36 AM | Processing request "Login" received from luba.
+03/09/18 09:58:37 AM | Processing request "GetData" received from luba.
+03/09/18 09:58:39 AM | Processing request "GetData" received from luba.
+03/09/18 09:58:48 AM | * Bystronic data reloaded
+03/09/18 09:58:54 AM | Processing request "Login" received from luba.
+03/09/18 09:58:55 AM | Processing request "GetData" received from luba.
+03/09/18 09:58:58 AM | Processing request "GetData" received from luba.
+03/09/18 09:59:38 AM | Processing request "Login" received from luba.
+03/09/18 09:59:39 AM | Processing request "GetData" received from luba.
+03/09/18 09:59:57 AM | Processing request "Login" received from luba.
+03/09/18 09:59:58 AM | Processing request "GetData" received from luba.
+03/09/18 10:00:01 AM | Processing request "GetData" received from luba.
+03/09/18 10:00:42 AM | Processing request "Login" received from luba.
+03/09/18 10:00:43 AM | Processing request "GetData" received from luba.
+03/09/18 10:00:47 AM | Processing request "GetData" received from luba.
+03/09/18 10:00:48 AM | * Bystronic data reloaded
+03/09/18 10:01:35 AM | Processing request "Login" received from luba.
+03/09/18 10:01:36 AM | Processing request "GetData" received from luba.
+03/09/18 10:01:41 AM | Processing request "GetData" received from luba.
+03/09/18 10:02:13 AM | Processing request "Login" received from luba.
+03/09/18 10:02:14 AM | Processing request "GetData" received from luba.
+03/09/18 10:02:17 AM | Processing request "GetData" received from luba.
+03/09/18 10:02:48 AM | * Bystronic data reloaded
+03/09/18 10:02:50 AM | Processing request "SaveColumns" received from luba.
+03/09/18 10:02:53 AM | Processing request "GetData" received from luba.
+03/09/18 10:03:32 AM | Processing request "Login" received from luba.
+03/09/18 10:03:33 AM | Processing request "GetData" received from luba.
+03/09/18 10:03:44 AM | Processing request "SaveColumns" received from luba.
+03/09/18 10:04:48 AM | * Bystronic data reloaded
+03/09/18 10:06:48 AM | * Bystronic data reloaded
+03/09/18 10:08:36 AM | Processing request "Login" received from luba.
+03/09/18 10:08:37 AM | Processing request "GetData" received from luba.
+03/09/18 10:08:48 AM | * Bystronic data reloaded
+03/09/18 10:09:04 AM | Processing request "Login" received from luba.
+03/09/18 10:09:05 AM | Processing request "GetData" received from luba.
+03/09/18 10:09:09 AM | Processing request "GetData" received from luba.
+03/09/18 10:10:07 AM | Processing request "Login" received from luba.
+03/09/18 10:10:08 AM | Processing request "GetData" received from luba.
+03/09/18 10:10:11 AM | Processing request "GetData" received from luba.
+03/09/18 10:10:45 AM | Processing request "Login" received from luba.
+03/09/18 10:10:46 AM | Processing request "GetData" received from luba.
+03/09/18 10:10:48 AM | * Bystronic data reloaded
+03/09/18 10:10:50 AM | Processing request "GetData" received from luba.
+03/09/18 10:11:17 AM | Processing request "Login" received from luba.
+03/09/18 10:11:18 AM | Processing request "GetData" received from luba.
+03/09/18 10:11:21 AM | Processing request "GetData" received from luba.
+03/09/18 10:12:48 AM | * Bystronic data reloaded
+03/09/18 10:13:27 AM | Processing request "Login" received from luba.
+03/09/18 10:13:28 AM | Processing request "GetData" received from luba.
+03/09/18 10:13:33 AM | Processing request "GetData" received from luba.
+03/09/18 10:14:08 AM | Processing request "Login" received from luba.
+03/09/18 10:14:09 AM | Processing request "GetData" received from luba.
+03/09/18 10:14:12 AM | Processing request "GetData" received from luba.
+03/09/18 10:14:35 AM | Processing request "Login" received from luba.
+03/09/18 10:14:35 AM | Processing request "GetData" received from luba.
+03/09/18 10:14:39 AM | Processing request "GetData" received from luba.
+03/09/18 10:14:48 AM | * Bystronic data reloaded
+03/09/18 10:16:48 AM | * Bystronic data reloaded
+03/09/18 10:18:48 AM | * Bystronic data reloaded
+03/09/18 10:20:48 AM | * Bystronic data reloaded
+03/09/18 10:22:15 AM | Processing request "Login" received from luba.
+03/09/18 10:22:16 AM | Processing request "GetData" received from luba.
+03/09/18 10:22:20 AM | Processing request "GetData" received from luba.
+03/09/18 10:22:48 AM | * Bystronic data reloaded
+03/09/18 10:24:38 AM | Processing request "Login" received from luba.
+03/09/18 10:24:39 AM | Processing request "GetData" received from luba.
+03/09/18 10:24:42 AM | Processing request "GetData" received from luba.
+03/09/18 10:24:48 AM | * Bystronic data reloaded
+03/09/18 10:25:35 AM | Processing request "Login" received from luba.
+03/09/18 10:25:36 AM | Processing request "GetData" received from luba.
+03/09/18 10:25:38 AM | Processing request "GetData" received from luba.
+03/09/18 10:26:16 AM | Processing request "Login" received from luba.
+03/09/18 10:26:17 AM | Processing request "GetData" received from luba.
+03/09/18 10:26:20 AM | Processing request "GetData" received from luba.
+03/09/18 10:26:48 AM | * Bystronic data reloaded
+03/09/18 10:27:11 AM | Processing request "Login" received from luba.
+03/09/18 10:27:11 AM | Processing request "GetData" received from luba.
+03/09/18 10:27:15 AM | Processing request "GetData" received from luba.
+03/09/18 10:27:37 AM | Processing request "Login" received from luba.
+03/09/18 10:27:38 AM | Processing request "GetData" received from luba.
+03/09/18 10:27:41 AM | Processing request "GetData" received from luba.
+03/09/18 10:27:56 AM | Processing request "Login" received from luba.
+03/09/18 10:27:56 AM | Processing request "GetData" received from luba.
+03/09/18 10:28:48 AM | * Bystronic data reloaded
+03/09/18 10:29:05 AM | Processing request "Login" received from luba.
+03/09/18 10:29:06 AM | Processing request "GetData" received from luba.
+03/09/18 10:29:09 AM | Processing request "GetData" received from luba.
+03/09/18 10:30:03 AM | Processing request "Login" received from luba.
+03/09/18 10:30:04 AM | Processing request "GetData" received from luba.
+03/09/18 10:30:06 AM | Processing request "GetData" received from luba.
+03/09/18 10:30:47 AM | Processing request "Login" received from luba.
+03/09/18 10:30:48 AM | * Bystronic data reloaded
+03/09/18 10:30:48 AM | Processing request "GetData" received from luba.
+03/09/18 10:30:51 AM | Processing request "GetData" received from luba.
+03/09/18 10:31:13 AM | Processing request "Login" received from luba.
+03/09/18 10:31:14 AM | Processing request "GetData" received from luba.
+03/09/18 10:31:16 AM | Processing request "GetData" received from luba.
+03/09/18 10:31:51 AM | Processing request "Login" received from luba.
+03/09/18 10:31:52 AM | Processing request "GetData" received from luba.
+03/09/18 10:31:56 AM | Processing request "GetData" received from luba.
+03/09/18 10:32:48 AM | * Bystronic data reloaded
+03/09/18 10:32:50 AM | Processing request "Login" received from luba.
+03/09/18 10:32:51 AM | Processing request "GetData" received from luba.
+03/09/18 10:32:53 AM | Processing request "GetData" received from luba.
+03/09/18 10:33:28 AM | Processing request "Login" received from luba.
+03/09/18 10:33:29 AM | Processing request "GetData" received from luba.
+03/09/18 10:33:31 AM | Processing request "GetData" received from luba.
+03/09/18 10:34:48 AM | * Bystronic data reloaded
+03/09/18 10:35:05 AM | Processing request "Login" received from luba.
+03/09/18 10:35:06 AM | Processing request "GetData" received from luba.
+03/09/18 10:35:08 AM | Processing request "GetData" received from luba.
+03/09/18 10:35:41 AM | Processing request "Login" received from luba.
+03/09/18 10:35:42 AM | Processing request "GetData" received from luba.
+03/09/18 10:35:44 AM | Processing request "GetData" received from luba.
+03/09/18 10:36:12 AM | Processing request "Login" received from luba.
+03/09/18 10:36:12 AM | Processing request "GetData" received from luba.
+03/09/18 10:36:14 AM | Processing request "GetData" received from luba.
+03/09/18 10:36:48 AM | * Bystronic data reloaded
+03/09/18 10:37:18 AM | Processing request "Login" received from luba.
+03/09/18 10:37:19 AM | Processing request "GetData" received from luba.
+03/09/18 10:38:48 AM | * Bystronic data reloaded
+03/09/18 10:39:39 AM | Processing request "Login" received from luba.
+03/09/18 10:39:40 AM | Processing request "GetData" received from luba.
+03/09/18 10:39:42 AM | Processing request "CreateOrder" received from luba.
+03/09/18 10:39:45 AM | Processing request "CreateOrder" received from luba.
+03/09/18 10:39:48 AM | Processing request "CreateOrder" received from luba.
+03/09/18 10:40:43 AM | Processing request "Login" received from luba.
+03/09/18 10:40:44 AM | Processing request "GetData" received from luba.
+03/09/18 10:40:48 AM | * Bystronic data reloaded
+03/09/18 10:40:49 AM | Processing request "GetData" received from luba.
+03/09/18 10:42:01 AM | Processing request "Login" received from luba.
+03/09/18 10:42:02 AM | Processing request "GetData" received from luba.
+03/09/18 10:42:07 AM | Processing request "GetData" received from luba.
+03/09/18 10:42:27 AM | Processing request "Login" received from luba.
+03/09/18 10:42:27 AM | Processing request "GetData" received from luba.
+03/09/18 10:42:34 AM | Processing request "GetData" received from luba.
+03/09/18 10:42:48 AM | * Bystronic data reloaded
+03/09/18 10:43:05 AM | Processing request "Login" received from luba.
+03/09/18 10:43:06 AM | Processing request "GetData" received from luba.
+03/09/18 10:43:31 AM | Processing request "Login" received from luba.
+03/09/18 10:43:32 AM | Processing request "GetData" received from luba.
+03/09/18 10:43:34 AM | Processing request "GetData" received from luba.
+03/09/18 10:43:54 AM | Processing request "Login" received from luba.
+03/09/18 10:43:55 AM | Processing request "GetData" received from luba.
+03/09/18 10:43:57 AM | Processing request "GetData" received from luba.
+03/09/18 10:44:48 AM | * Bystronic data reloaded
+03/09/18 10:46:48 AM | * Bystronic data reloaded
+03/09/18 10:48:48 AM | * Bystronic data reloaded
+03/09/18 10:49:25 AM | Processing request "Login" received from luba.
+03/09/18 10:49:25 AM | Processing request "GetData" received from luba.
+03/09/18 10:50:34 AM | Processing request "Login" received from luba.
+03/09/18 10:50:35 AM | Processing request "GetData" received from luba.
+03/09/18 10:50:38 AM | Processing request "GetData" received from luba.
+03/09/18 10:50:48 AM | * Bystronic data reloaded
+03/09/18 10:52:17 AM | Processing request "Login" received from droarty.
+03/09/18 10:52:17 AM | Invalid username or password.
+03/09/18 10:52:48 AM | * Bystronic data reloaded
+03/09/18 10:54:48 AM | * Bystronic data reloaded
+03/09/18 10:56:48 AM | * Bystronic data reloaded
+03/09/18 10:58:48 AM | * Bystronic data reloaded
+03/09/18 11:00:48 AM | * Bystronic data reloaded
+03/09/18 11:02:48 AM | * Bystronic data reloaded
+03/09/18 11:04:48 AM | * Bystronic data reloaded
+03/09/18 11:06:48 AM | * Bystronic data reloaded
+03/09/18 11:08:48 AM | * Bystronic data reloaded
+03/09/18 11:10:48 AM | * Bystronic data reloaded
+03/09/18 11:12:26 AM | Processing request "Login" received from luba.
+03/09/18 11:12:27 AM | Processing request "GetData" received from luba.
+03/09/18 11:12:48 AM | * Bystronic data reloaded
+03/09/18 11:12:52 AM | Processing request "Login" received from luba.
+03/09/18 11:12:53 AM | Processing request "GetData" received from luba.
+03/09/18 11:13:13 AM | Processing request "Login" received from luba.
+03/09/18 11:13:14 AM | Processing request "GetData" received from luba.
+03/09/18 11:13:17 AM | Processing request "GetData" received from luba.
+03/09/18 11:13:32 AM | Processing request "Login" received from luba.
+03/09/18 11:13:33 AM | Processing request "GetData" received from luba.
+03/09/18 11:13:35 AM | Processing request "GetData" received from luba.
+03/09/18 11:14:07 AM | Processing request "Login" received from luba.
+03/09/18 11:14:08 AM | Processing request "GetData" received from luba.
+03/09/18 11:14:11 AM | Processing request "GetData" received from luba.
+03/09/18 11:14:41 AM | Processing request "Login" received from luba.
+03/09/18 11:14:41 AM | Processing request "GetData" received from luba.
+03/09/18 11:14:45 AM | Processing request "GetData" received from luba.
+03/09/18 11:14:48 AM | * Bystronic data reloaded
+03/09/18 11:14:57 AM | Processing request "Login" received from luba.
+03/09/18 11:14:58 AM | Processing request "GetData" received from luba.
+03/09/18 11:15:01 AM | Processing request "GetData" received from luba.
+03/12/18 08:57:51 AM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/12/18 08:57:51 AM | * Bystronic data reloaded
+03/12/18 08:58:19 AM | Listening to client requests at http://lchpid1.chi.gvsi.com:80/bystronic/...
+03/12/18 08:58:19 AM | * Bystronic data reloaded
+03/12/18 08:58:43 AM | Processing request "Login" received from luba.
+03/12/18 08:58:44 AM | Processing request "GetData" received from luba.
+03/12/18 08:58:55 AM | Processing request "CreateOrder" received from luba.
+03/12/18 08:59:17 AM | Processing request "CalculateOrder" received from luba.
+03/12/18 08:59:19 AM | Processing request "SaveOrder" received from luba.
+03/12/18 08:59:22 AM | Processing request "CreateOrder" received from luba.
+03/12/18 08:59:43 AM | Processing request "CalculateOrder" received from luba.
+03/12/18 08:59:44 AM | Processing request "SaveOrder" received from luba.
+03/12/18 08:59:54 AM | Processing request "DeleteOrder" received from luba.
+03/12/18 09:00:19 AM | * Bystronic data reloaded
+03/12/18 09:02:19 AM | * Bystronic data reloaded
+03/12/18 09:04:19 AM | * Bystronic data reloaded
+03/12/18 09:04:35 AM | Processing request "Login" received from luba.
+03/12/18 09:04:36 AM | Processing request "GetData" received from luba.
+03/12/18 09:06:20 AM | * Bystronic data reloaded
+03/12/18 09:08:20 AM | * Bystronic data reloaded
+03/12/18 10:38:18 AM | * Bystronic data reloaded
+03/12/18 10:40:18 AM | * Bystronic data reloaded
+03/12/18 10:42:18 AM | * Bystronic data reloaded
+03/12/18 10:44:18 AM | * Bystronic data reloaded
+03/12/18 10:46:18 AM | * Bystronic data reloaded
+03/12/18 10:51:37 AM | Listening to client requests at http://WCHPID4.chi.gvsi.com:80/bystronic/...
+03/12/18 10:51:37 AM | * Bystronic data reloaded
+03/12/18 10:52:14 AM | Processing request "Login" received from luba.
+03/12/18 10:52:15 AM | Processing request "GetData" received from luba.
+03/12/18 10:52:21 AM | Processing request "GetData" received from luba.
+03/12/18 10:53:04 AM | Processing request "GetData" received from luba.
+03/12/18 10:53:37 AM | * Bystronic data reloaded
+03/12/18 10:53:45 AM | Processing request "Login" received from luba.
+03/12/18 10:53:46 AM | Processing request "GetData" received from luba.
+03/12/18 10:53:51 AM | Processing request "GetData" received from luba.
+03/12/18 10:54:05 AM | Processing request "Login" received from luba.
+03/12/18 10:54:06 AM | Processing request "GetData" received from luba.
+03/12/18 10:54:09 AM | Processing request "GetData" received from luba.
+03/12/18 10:55:22 AM | Processing request "Login" received from luba.
+03/12/18 10:55:23 AM | Processing request "GetData" received from luba.
+03/12/18 10:55:37 AM | * Bystronic data reloaded
+03/12/18 10:57:06 AM | Processing request "Login" received from luba.
+03/12/18 10:57:07 AM | Processing request "GetData" received from luba.
+03/12/18 10:57:12 AM | Processing request "GetData" received from luba.
+03/12/18 10:57:21 AM | Processing request "GetData" received from luba.
+03/12/18 10:57:37 AM | * Bystronic data reloaded
+03/12/18 10:57:50 AM | Processing request "Login" received from luba.
+03/12/18 10:57:51 AM | Processing request "GetData" received from luba.
+03/12/18 10:57:55 AM | Processing request "GetData" received from luba.
+03/12/18 10:58:07 AM | Processing request "Login" received from luba.
+03/12/18 10:58:08 AM | Processing request "GetData" received from luba.
+03/12/18 10:58:11 AM | Processing request "GetData" received from luba.
+03/12/18 10:59:37 AM | * Bystronic data reloaded
+03/12/18 11:00:45 AM | Processing request "Login" received from luba.
+03/12/18 11:00:48 AM | Processing request "GetData" received from luba.
+03/12/18 11:00:57 AM | Processing request "SaveColumns" received from luba.
+03/12/18 11:01:01 AM | Processing request "CreateOrder" received from luba.
+03/12/18 11:01:37 AM | * Bystronic data reloaded
+03/12/18 11:03:37 AM | * Bystronic data reloaded
+03/12/18 11:05:37 AM | * Bystronic data reloaded
+03/12/18 11:07:37 AM | * Bystronic data reloaded
+03/12/18 11:09:37 AM | * Bystronic data reloaded
+03/12/18 11:11:37 AM | * Bystronic data reloaded
+03/12/18 11:13:37 AM | * Bystronic data reloaded
+03/12/18 11:15:37 AM | * Bystronic data reloaded
+03/12/18 11:17:37 AM | * Bystronic data reloaded
+03/12/18 11:19:37 AM | * Bystronic data reloaded
+03/12/18 11:21:37 AM | * Bystronic data reloaded
+03/12/18 11:23:37 AM | * Bystronic data reloaded
+03/12/18 11:25:37 AM | * Bystronic data reloaded
+03/12/18 11:27:37 AM | * Bystronic data reloaded
+03/12/18 11:29:37 AM | * Bystronic data reloaded
+03/12/18 11:31:37 AM | * Bystronic data reloaded
+03/12/18 11:33:37 AM | * Bystronic data reloaded
+03/12/18 11:35:37 AM | * Bystronic data reloaded
+03/12/18 11:37:37 AM | * Bystronic data reloaded
+03/12/18 11:39:37 AM | * Bystronic data reloaded
+03/12/18 11:41:37 AM | * Bystronic data reloaded
+03/12/18 11:43:37 AM | * Bystronic data reloaded
+03/12/18 11:45:37 AM | * Bystronic data reloaded
+03/12/18 11:47:37 AM | * Bystronic data reloaded
+03/12/18 11:49:37 AM | * Bystronic data reloaded
+07/30/18 10:53:30 AM | Listening to client requests at http://WCHPID4.chi.gvsi.com:80/bystronic/...
+07/30/18 10:53:30 AM | * Bystronic data reloaded
+07/30/18 10:57:45 AM | Processing request "Login" received from luba.
+07/30/18 10:57:46 AM | Processing request "GetData" received from luba.
+07/30/18 10:57:49 AM | Processing request "CreateOrder" received from luba.
+07/30/18 10:58:30 AM | * Bystronic data reloaded
+07/30/18 11:03:30 AM | * Bystronic data reloaded
+07/30/18 11:08:30 AM | * Bystronic data reloaded
+07/30/18 11:13:30 AM | * Bystronic data reloaded
+07/30/18 11:18:30 AM | * Bystronic data reloaded
+07/30/18 11:23:30 AM | * Bystronic data reloaded
+07/30/18 11:28:30 AM | * Bystronic data reloaded
+07/30/18 11:33:30 AM | * Bystronic data reloaded
+07/30/18 11:38:30 AM | * Bystronic data reloaded
+07/30/18 11:43:30 AM | * Bystronic data reloaded
+07/30/18 11:48:30 AM | * Bystronic data reloaded
+07/30/18 11:51:55 AM | Processing request "Login" received from luba.
+07/30/18 11:51:56 AM | Processing request "GetData" received from luba.
+07/30/18 11:53:30 AM | * Bystronic data reloaded
+07/30/18 11:55:31 AM | Processing request "Login" received from luba.
+07/30/18 11:55:33 AM | Processing request "GetData" received from luba.
+07/30/18 11:55:35 AM | Processing request "GetData" received from luba.
+07/30/18 11:57:50 AM | Processing request "Login" received from luba.
+07/30/18 11:57:52 AM | Processing request "GetData" received from luba.
+07/30/18 11:58:30 AM | * Bystronic data reloaded
+07/30/18 12:03:30 PM | * Bystronic data reloaded
+07/30/18 12:05:44 PM | Processing request "Login" received from luba.
+07/30/18 12:05:45 PM | Processing request "GetData" received from luba.
+07/30/18 12:05:47 PM | Processing request "GetData" received from luba.
+07/30/18 12:08:30 PM | * Bystronic data reloaded
+07/30/18 12:13:30 PM | * Bystronic data reloaded
+07/30/18 12:18:30 PM | * Bystronic data reloaded
+07/30/18 12:23:30 PM | * Bystronic data reloaded
+07/30/18 12:28:30 PM | * Bystronic data reloaded
+07/30/18 12:33:30 PM | * Bystronic data reloaded
+07/30/18 12:38:30 PM | * Bystronic data reloaded
+07/30/18 12:43:30 PM | * Bystronic data reloaded
+07/30/18 12:48:30 PM | * Bystronic data reloaded
+07/30/18 12:53:30 PM | * Bystronic data reloaded
+07/30/18 12:58:29 PM | * Bystronic data reloaded
+07/30/18 01:03:29 PM | * Bystronic data reloaded
+07/30/18 01:08:29 PM | * Bystronic data reloaded
+07/30/18 01:13:29 PM | * Bystronic data reloaded
+07/30/18 01:18:29 PM | * Bystronic data reloaded
+07/30/18 01:23:29 PM | * Bystronic data reloaded
+07/30/18 01:28:29 PM | * Bystronic data reloaded
+07/30/18 01:33:29 PM | * Bystronic data reloaded
+07/30/18 01:38:29 PM | * Bystronic data reloaded
+07/30/18 01:43:29 PM | * Bystronic data reloaded
+07/30/18 01:48:29 PM | * Bystronic data reloaded
+07/30/18 01:53:29 PM | * Bystronic data reloaded
+07/30/18 01:58:29 PM | * Bystronic data reloaded
+07/30/18 02:03:29 PM | * Bystronic data reloaded
+07/30/18 02:08:29 PM | * Bystronic data reloaded
+07/30/18 02:13:29 PM | * Bystronic data reloaded
+07/30/18 02:18:29 PM | * Bystronic data reloaded
+07/30/18 02:23:29 PM | * Bystronic data reloaded
+07/30/18 02:28:29 PM | * Bystronic data reloaded
+07/30/18 02:33:29 PM | * Bystronic data reloaded
+07/30/18 02:38:29 PM | * Bystronic data reloaded
+07/30/18 02:43:30 PM | * Bystronic data reloaded
+07/30/18 02:48:30 PM | * Bystronic data reloaded
+07/30/18 02:53:30 PM | * Bystronic data reloaded
+07/30/18 02:58:30 PM | * Bystronic data reloaded
+07/30/18 03:03:30 PM | * Bystronic data reloaded
+07/30/18 03:08:30 PM | * Bystronic data reloaded
+07/30/18 03:13:30 PM | * Bystronic data reloaded
+07/30/18 03:18:30 PM | * Bystronic data reloaded
+07/30/18 03:23:30 PM | * Bystronic data reloaded
+>>>>>>> destination
